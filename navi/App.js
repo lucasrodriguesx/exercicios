@@ -15,7 +15,7 @@ export default function App() {
       <NavigationContainer>
         <Tab.Navigator>
 
-          {/* HomeScreen */}
+         
           <Tab.Screen
             name='HomeScreen'
             component={HomeScreen}
@@ -25,7 +25,7 @@ export default function App() {
             }}
           />
 
-          {/* ProfileScreen */}
+          
           <Tab.Screen
             name='ProfileScreen'
             component={ProfileScreen}
@@ -36,7 +36,7 @@ export default function App() {
           />
 
 
-          {/* SettingsScreen */}
+          
           <Tab.Screen
             name='SettingsScreen'
             component={SettingsScreen}
